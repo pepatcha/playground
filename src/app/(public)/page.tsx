@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "@/components/common/languageSwitcher";
+import { ThemeToggle } from "@/components/theme/themeToggle";
 
 export default function HomePage() {
     const t = useTranslations("HomePage");
@@ -16,6 +17,7 @@ export default function HomePage() {
                     priority
                 />
                 <LanguageSwitcher />
+                <ThemeToggle />
                 <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
                 <li className="mb-2 tracking-[-.01em]">
                     Get started by editing{" "}
@@ -24,10 +26,10 @@ export default function HomePage() {
                     </code>
                     .
                 </li>
-                <li className="tracking-[-.01em]">
+                <li className="tracking-[-.01em] text-primary">
                     Save and see your changes instantly.
                 </li>
-                <li className="tracking-[-.01em]">
+                <li className="tracking-[-.01em]" style={{ color: "var(--primary)" }}>
                     {t("title")}
                 </li>
                 </ol>
