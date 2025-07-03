@@ -12,7 +12,7 @@ export function LanguageSwitcher() {
     };
 
     return (
-        <div>
+        <div className="text-red-500 dark:text-green-500">
             <button onClick={() => changeLanguage("en")}>EN</button>
             <button onClick={() => changeLanguage("th")}>TH</button>
         </div>

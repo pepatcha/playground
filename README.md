@@ -29,6 +29,10 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Light/Dark Theme
+
+This project demonstrates a minimal theme setup using Tailwind and CSS variables. By default it follows the user's `prefers-color-scheme` setting, and you can toggle the mode manually via the `ThemeSwitcher` component found on the home page.
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

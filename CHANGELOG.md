@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.0.3] - 2025-07-03
+### Added
+- THEME
+
+---
+
 ## [0.0.2] - 2025-07-03
 ### Added
 - Full Next.js GitHub workflow setup
