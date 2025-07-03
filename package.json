@@ -1,6 +1,7 @@
 {
-  "name": "pepatcha",
-  "version": "0.1.1",
+  "name": "pepatcha_playground",
+  "version": "0.0.2",
+  "description": "",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -8,6 +9,19 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [
+    "pepatcha"
+  ],
+  "author": "PePatcha <pepatcha_@hotmail.com> (https://github.com/pepatcha)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pepatcha/playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pepatcha/playground/issues"
+  },
+  "homepage": "https://github.com/pepatcha/playground#readme",
   "dependencies": {
     "js-cookie": "^3.0.5",
     "next": "15.3.4",
