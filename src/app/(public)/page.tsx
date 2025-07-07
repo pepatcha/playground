@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { ThemeToggle } from "@/components/common/themeToggle";
 import { LanguageSwitcher } from "@/components/common/languageSwitcher";
-import { ThemeToggle } from "@/components/theme/themeToggle";
 
 export default function HomePage() {
     const t = useTranslations("HomePage");
+
     return (
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
@@ -29,7 +30,10 @@ export default function HomePage() {
                 <li className="tracking-[-.01em] text-primary">
                     Save and see your changes instantly.
                 </li>
-                <li className="tracking-[-.01em]" style={{ color: "var(--primary)" }}>
+                <li className="tracking-[-.01em] text-secondary">
+                    Save and see your changes instantly.
+                </li>
+                <li className="tracking-[-.01em]" style={{ color: "var(--primary-main)" }}>
                     {t("title")}
                 </li>
                 </ol>

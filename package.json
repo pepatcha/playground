@@ -10,7 +10,10 @@
     "lint": "next lint"
   },
   "keywords": [
-    "pepatcha"
+    "pepatcha",
+    "patchara",
+    "suwanbordin",
+    "patchara_suwanbordin"
   ],
   "author": "PePatcha <pepatcha_@hotmail.com> (https://github.com/pepatcha)",
   "license": "MIT",

@@ -24,6 +24,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
     return (
         <html lang={locale} className={theme}>
+            <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+            </head>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
                 <NextIntlClientProvider locale={locale}>
                     {children}

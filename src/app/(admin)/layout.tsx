@@ -1,7 +1,12 @@
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
+import { SidebarProvider } from "@/lib/sidebar";
+import AdminLayout from "@/components/layout/adminLayout";
+
+export default function AdminMainLayout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="bg-red-50">
-            {children}
-        </div>
+        <SidebarProvider>
+            <AdminLayout>
+                {children}
+            </AdminLayout>
+        </SidebarProvider>
     )
 }
